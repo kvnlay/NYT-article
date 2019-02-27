@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
-ol, ul {
+ol, ul, li {
   list-style: none;
 }
 blockquote, q {
@@ -84,6 +84,32 @@ table {
 }
 
 .editors-pick{
-    display: inline-block;
-    width: 130px;
+    width: 210px;
+    float: right;
+    margin: 0 90px 0 0;
+}
+.editors-section img{
+  width: 70px; height: 50px;
+  float: left;
+}
+.editors-section p{
+  width: 130px;
+  margin: 0 0 0 10px;
+  float: right;
+}
+.editors-section {
+  width: 210px; min-height: 70px;
+  display: block;
+  font-size: 12px;
+
+}
+.article img{
+  width: 650px;height: 410px;
+}
+.trending{
+  width: 300px;
+}
+.trending li{
+  height: 120px;
+  border-bottom: 1px solid #080808;
 }
