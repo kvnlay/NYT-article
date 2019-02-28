@@ -61,6 +61,27 @@ table {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nav-left i{
+  margin: 0 15px;
+}
+
+.nav-btn{
+  margin-right: 30px;
+}
+
+.nav-btn button{
+    margin-right: 5px;
+    background-color: rgb(98, 136, 165);
+    color: white;
+    padding: 11px 12px 8px 12px;
+    border-color: darkblue;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: 1000;
+    cursor: pointer;
 }
 
 .container{
@@ -78,9 +99,23 @@ table {
     height: auto;
 }
 
+.big-img h1{
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-style: italic;
+    font-weight: 700;
+    margin: 35px 20px 1rem;
+    text-align: center;
+}
+
 .article{
     width: 650px;
     margin-left: 25%;
+}
+
+.article-date{
+  margin: 20px 0;
 }
 
 .editors-pick{
@@ -112,4 +147,13 @@ table {
 .trending li{
   height: 120px;
   border-bottom: 1px solid #080808;
+}
+
+.socials{
+  display: inline-block;
+}
+
+.date{
+    display: inline-block;
+    margin-right: 450px;
 }
