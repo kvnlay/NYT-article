@@ -113,7 +113,7 @@ h3{
 }
 
 .container{
-    margin: 100px auto 20px auto;
+    margin: 100px auto;
 }
 .center{
   position: relative;
@@ -152,9 +152,7 @@ h3{
 
 .editors-pick{
     width: 210px;
-    position: absolute;
-    right: 70px;
-    top: 1500px;
+    float: right;
     margin: 0 90px 0 0;
 }
 .editors-section img{
@@ -185,7 +183,7 @@ h3{
 }
 .content-trending{
   width: 1000px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto;
   margin-top: 40px;
 }
 .content{
@@ -263,7 +261,7 @@ footer{
   content: "";
   display: block;
   height: 1px;
-  margin-top: 50px;
+  margin-top: 0px;
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
   width: 85%;
@@ -307,37 +305,21 @@ footer{
   line-height: 21px;
 }
 
-.bottom-footer{
-  justify-content: center;
-  border-top: 1px solid #eeeeee;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.bottom-footer a{
-  margin: 0 15px;
-  text-decoration: none;
-  color: rgb(153, 153, 153);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 10px;
-}
-
 /* inflation section */
 div.inflation{
   background-image: url(/assets/images/inflation-720.png);
   background-repeat: no-repeat;
   background-size: 725px 648px;
-  width: 752px;
+  width: 725px;
   height: 648px;
   border-bottom: 1px solid #000;
   position: relative;
   left: -100px;
   line-height: normal;
-  overflow: hidden;
 }
 
 .inflation-item{
-  width: 24%;
+  width: 183px;
   height: 155px;
   float: left;
   margin-top: 135px;
@@ -364,12 +346,4 @@ div.inflation{
 
 .article-figure p{
   clear: none;
-}
-
-.figure-author{
-  font-size: .875rem;
-  line-height: 1.125rem;
-  font-weight: 500;
-  font-style: normal;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
