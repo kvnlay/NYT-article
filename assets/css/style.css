@@ -141,11 +141,16 @@ table {
 .article img{
   width: 650px;height: 410px;
 }
-
+.content-trending{
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 40px;
+}
 .content{
   width: 680px;
-  float: left;
-  margin: 40px 0 0 10%;
 }
 .content-section{
   width: 680px;
@@ -179,8 +184,7 @@ table {
 
 .trending{
   width: 300px;
-  float: right;
-  margin: 40px 10% 0 0;
+  margin: 0 0 0 20px;
   border-top: 1px solid #000;}
 .trending li{
   padding: 10px 10px 10px 0;
