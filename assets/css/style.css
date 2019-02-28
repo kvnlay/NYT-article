@@ -50,6 +50,7 @@ table {
 }
 p {
   margin: 0 0 10px 0;
+  clear: both;
 }
 
 /* custom styles */
@@ -293,3 +294,19 @@ footer{
   line-height: 21px;
 }
 
+/* inflation section */
+div.inflation{
+  background-image: url(/assets/images/inflation-720.png);
+  background-repeat: no-repeat;
+  background-size: 720px 648px;
+  width: 720px;
+  height: 648px;
+  border-bottom: 1px solid #000;
+  z-index: 1;
+  position: relative;
+  left: -100px;
+}
+
+.article-figure p{
+  clear: none;
+}
