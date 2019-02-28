@@ -141,12 +141,51 @@ table {
 .article img{
   width: 650px;height: 410px;
 }
+
+.content{
+  width: 680px;
+  float: left;
+  margin: 40px 0 0 10%;
+}
+.content-section{
+  width: 680px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 3;
+}
+.content-info{
+  width: 210px; height: 180px;
+  margin: 8px;
+}
+.content-info img{
+  width: 210px;height: 140px;
+}
+.content-info p{
+  margin: 10px 2px 2px 2px;
+  font-family: serif;
+  font-size: 14px;
+}
+.caption{
+  font-size: 10px;
+  color: #2d2d2d;
+  float: right;
+}
+.line{
+  border-top: 1px solid #000;
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+}
+
 .trending{
   width: 300px;
-}
+  float: right;
+  margin: 40px 10% 0 0;
+  border-top: 1px solid #000;}
 .trending li{
-  height: 120px;
-  border-bottom: 1px solid #080808;
+  padding: 10px 10px 10px 0;
+  height: auto;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .socials{
