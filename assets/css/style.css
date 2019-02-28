@@ -28,7 +28,10 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+  color: #333;
   line-height: 1;
+  font: 15px/22px Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
 }
 ol, ul, li {
   list-style: none;
@@ -45,8 +48,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+p {
+  margin: 0 0 10px 0;
+}
 
 /* custom styles */
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .navbar{
     position: fixed;
@@ -56,8 +68,6 @@ table {
     height: 40px;
     background-color: #ffffff;
     z-index: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
@@ -87,6 +97,10 @@ table {
 .container{
     margin: 100px auto;
 }
+.center{
+  position: relative;
+  right: 60px;
+}
 
 .big-img{
     width: 940px;
@@ -110,8 +124,8 @@ table {
 }
 
 .article{
-    width: 650px;
-    margin-left: 25%;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .article-date{
@@ -139,13 +153,14 @@ table {
 
 }
 .article img{
-  width: 650px;height: 410px;
+  width: 600px;height: 400px;
+}
+.iframe {
+  width:600px; 
+  height:357px;
 }
 .content-trending{
   width: 1000px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -154,13 +169,10 @@ table {
 }
 .content-section{
   width: 680px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   flex: 3;
 }
 .content-info{
-  width: 210px; height: 180px;
+  width: 210px; height: 210px;
   margin: 8px;
 }
 .content-info img{
@@ -198,21 +210,19 @@ table {
 
 .date{
     display: inline-block;
-    margin-right: 450px;
+    margin-right: 300px;
 }
 
 /* footer style */
 
 footer{
-  width: 100%;
   border-top: 1px solid #eeeeee;
 }
 
 .main-footer{
   margin: 10px auto;
   width: 80vw;
-  display: flex;
-  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .footer-section{
