@@ -188,6 +188,7 @@ h3{
 .iframe {
   width:600px; 
   height:357px;
+  border: none;
 }
 .content-trending{
   width: 1000px;
@@ -331,7 +332,7 @@ footer{
 
 /* inflation section */
 div.inflation{
-  background-image: url(/assets/images/inflation-720.png);
+  background-image: url(../images/inflation-720.png);
   background-repeat: no-repeat;
   background-size: 725px 648px;
   width: 752px;
